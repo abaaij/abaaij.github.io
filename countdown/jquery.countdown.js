@@ -7,7 +7,7 @@ var defaultOptions = {
     return;
   },
   render: function (date) {
-    this.el.innerHTML = date.days  + " days till Mont Ventoux"
+    this.el.innerHTML = date.days  + " days, "+date.hours+ " hours and " + date.min+ " minutes"
   }
 };
 
